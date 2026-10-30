@@ -5,7 +5,7 @@
 | **Name** | Prem Kumar |
 | **Roll Number** | M26CSA017 |
 | **Seed** | 26017 |
-| **Repository** | https://github.com/chandu-suggu/ml2ass |
+| **Repository** | https://github.com/Chandu-Suggu/ML_Assignment2 |
 | **Report** | `report/report.pdf` (CVPR format, 8 pages) |
 
 ---
