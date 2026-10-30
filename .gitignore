@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Matplotlib cache
+data/mpl/
+.matplotlib/
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+
+# Debug / scratch scripts (kept out of repo)
+debug_typst.py
+fix_typst.py
+test_hat.py
+check_pdf_pages.py
+
+# Rendered-page verification images
+report/rendered_pages/
+
+# Dataset cache
+data/olivetti_py3.pkz
+data/mpl/
