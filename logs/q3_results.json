@@ -1,0 +1,89 @@
+{
+  "section_3a": {
+    "single_tree": {
+      "bias_sq": 0.39455555555555566,
+      "variance": 0.6296111111111111,
+      "mean_acc": 0.4879166666666667,
+      "std_acc": 0.03686734854703941
+    },
+    "bagging": {
+      "bias_sq": 0.20941666666666667,
+      "variance": 0.27975000000000005,
+      "mean_acc": 0.7554166666666667,
+      "std_acc": 0.043622831050825775
+    },
+    "boosting": {
+      "bias_sq": 0.8922795019649825,
+      "variance": 0.022387174919415234,
+      "mean_acc": 0.23666666666666672,
+      "std_acc": 0.07983924821512009
+    }
+  },
+  "section_3b_depths": {
+    "2": {
+      "depth": "2",
+      "tree_bias_sq": 1.804861111111111,
+      "tree_var": 0.06930555555555555,
+      "tree_acc_mean": 0.06291666666666668,
+      "tree_acc_std": 0.011403276819503339,
+      "bag_bias_sq": 0.8739722222222224,
+      "bag_var": 0.8268611111111112,
+      "bag_acc_mean": 0.14958333333333332,
+      "bag_acc_std": 0.05972884330222897,
+      "variance_removed": -0.7575555555555556,
+      "acc_improvement": 0.08666666666666664
+    },
+    "8": {
+      "depth": "8",
+      "tree_bias_sq": 1.3445555555555557,
+      "tree_var": 0.3387777777777778,
+      "tree_acc_mean": 0.15833333333333335,
+      "tree_acc_std": 0.02379017070603366,
+      "bag_bias_sq": 0.544888888888889,
+      "bag_var": 0.5926111111111111,
+      "bag_acc_mean": 0.4312500000000001,
+      "bag_acc_std": 0.0680647669503099,
+      "variance_removed": -0.2538333333333333,
+      "acc_improvement": 0.2729166666666667
+    },
+    "None": {
+      "depth": "None",
+      "tree_bias_sq": 0.39455555555555566,
+      "tree_var": 0.6296111111111111,
+      "tree_acc_mean": 0.4879166666666667,
+      "tree_acc_std": 0.03686734854703941,
+      "bag_bias_sq": 0.1968611111111111,
+      "bag_var": 0.2514722222222222,
+      "bag_acc_mean": 0.7758333333333333,
+      "bag_acc_std": 0.03274480450731416,
+      "variance_removed": 0.3781388888888889,
+      "acc_improvement": 0.28791666666666654
+    }
+  },
+  "section_3d_master_table": [
+    {
+      "Model": "Single Tree (Selected)",
+      "Clean Test Acc (Mean)": 0.4879166666666667,
+      "Clean Test Acc (Std)": 0.03686734854703941,
+      "Masked Test Acc": 0.325,
+      "Measured Bias^2": 0.39455555555555566,
+      "Measured Variance": 0.6296111111111111
+    },
+    {
+      "Model": "Bagging (Selected, B=100)",
+      "Clean Test Acc (Mean)": 0.7554166666666667,
+      "Clean Test Acc (Std)": 0.043622831050825775,
+      "Masked Test Acc": 0.75,
+      "Measured Bias^2": 0.20941666666666667,
+      "Measured Variance": 0.27975000000000005
+    },
+    {
+      "Model": "Boosting (Selected, SAMME)",
+      "Clean Test Acc (Mean)": 0.23666666666666672,
+      "Clean Test Acc (Std)": 0.07983924821512009,
+      "Masked Test Acc": 0.325,
+      "Measured Bias^2": 0.8922795019649825,
+      "Measured Variance": 0.022387174919415234
+    }
+  ]
+}
