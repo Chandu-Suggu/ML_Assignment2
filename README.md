@@ -2,7 +2,7 @@
 
 | Field | Value |
 |---|---|
-| **Name** | Prem Kumar |
+| **Name** | Suggu Chandu |
 | **Roll Number** | M26CSA017 |
 | **Seed** | 26017 |
 | **Repository** | https://github.com/Chandu-Suggu/ML_Assignment2 |
